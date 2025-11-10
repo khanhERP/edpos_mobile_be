@@ -115,6 +115,12 @@ class DatabaseManager {
         isActive: true,
       },
       {
+        subdomain: "demo-mobile",
+        databaseUrl: process.env.DATABASE_demo || process.env.EXTERNAL_DB_demo!,
+        storeName: "Store 0 - Cửa hàng demo",
+        isActive: true,
+      },
+      {
         subdomain: "0318225421",
         databaseUrl: process.env.EXTERNAL_DB_URL || process.env.DATABASE_URL!,
         storeName: "Store 1 - Cửa hàng 0318225421",
