@@ -294,11 +294,11 @@ class DatabaseManager {
         isActive: true,
       },
       {
-        subdomain: "8754123833-001-mobile",
+        subdomain: "066200000186-mobile",
         databaseUrl:
-          process.env.DATABASE_8754123833 ||
-          process.env.EXTERNAL_DB_8754123833!,
-        storeName: "Store 5 - Cửa hàng 8754123833",
+          process.env.DATABASE_066200000186 ||
+          process.env.EXTERNAL_DB_066200000186!,
+        storeName: "Store 5 - Cửa hàng 066200000186",
         isActive: true,
       },
     ];
