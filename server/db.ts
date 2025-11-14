@@ -293,6 +293,14 @@ class DatabaseManager {
         storeName: "Store 5 - Cửa hàng 0108670987-008",
         isActive: true,
       },
+      {
+        subdomain: "8754123833-001-mobile",
+        databaseUrl:
+          process.env.DATABASE_8754123833 ||
+          process.env.EXTERNAL_DB_8754123833!,
+        storeName: "Store 5 - Cửa hàng 8754123833",
+        isActive: true,
+      },
     ];
 
     // Initialize each tenant database
