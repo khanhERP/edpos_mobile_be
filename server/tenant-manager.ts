@@ -34,18 +34,18 @@ class TenantManager {
         isActive: true,
       },
       {
-        subdomain: "0318225421",
+        subdomain: "0318225421-mobile",
         databaseUrl: process.env.EXTERNAL_DB_URL || process.env.DATABASE_URL!,
-        storeName: "Store 1 - Cửa hàng 0318225421",
+        storeName: "Store 1 - Cửa hàng 0318225421-mobile",
         isActive: true,
       },
       {
-        subdomain: "0111156080",
+        subdomain: "0111156080-mobile",
         databaseUrl:
           process.env.DATABASE_0111156080 ||
           process.env.EXTERNAL_DB_0111156080 ||
           process.env.DATABASE_URL!,
-        storeName: "Store 2 - Cửa hàng 0111156080",
+        storeName: "Store 2 - Cửa hàng 0111156080-mobile",
         isActive: true,
       },
       {
@@ -143,6 +143,14 @@ class TenantManager {
         isActive: true,
       },
       {
+        subdomain: "0108670987-009-mobile",
+        databaseUrl:
+          process.env.DATABASE_0108670987 ||
+          process.env.EXTERNAL_DB_0108670987!,
+        storeName: "Store 5 - Cửa hàng 0108670987-009",
+        isActive: true,
+      },
+      {
         subdomain: "0108670987-001-mobile2",
         databaseUrl:
           process.env.DATABASE_0108670987_001 ||
@@ -209,9 +217,32 @@ class TenantManager {
       {
         subdomain: "066200000186-mobile",
         databaseUrl:
-          process.env.DATABASE_066200000186 ||
-          process.env.EXTERNAL_DB_066200000186!,
-        storeName: "Store 5 - Cửa hàng 066200000186",
+          process.env.EXTERNAL_066200000186 ||
+          process.env.DATABASE_066200000186!,
+        storeName: "Store 6 - Cửa hàng 066200000186",
+        isActive: true,
+      },
+      {
+        subdomain: "8603725152-001-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_8603725152 || process.env.DATABASE_8603725152!,
+        storeName: "Store 6 - Cửa hàng 8603725152-001",
+        isActive: true,
+      },
+      {
+        subdomain: "001093040802-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_001093040802 ||
+          process.env.DATABASE_001093040802!,
+        storeName: "Store 6 - Cửa hàng 001093040802",
+        isActive: true,
+      },
+      {
+        subdomain: "227093000003-mobile",
+        databaseUrl:
+          process.env.EXTERNAL_227093000003 ||
+          process.env.DATABASE_227093000003!,
+        storeName: "Store 6 - Cửa hàng 227093000003",
         isActive: true,
       },
       // Add more tenants as needed
@@ -285,6 +316,7 @@ class TenantManager {
       { key: "https://0108670987-006-mobile.edpos.vn", value: "CH-006" },
       { key: "https://0108670987-007-mobile.edpos.vn", value: "CH-007" },
       { key: "https://0108670987-008-mobile.edpos.vn", value: "CH-008" },
+      { key: "https://0108670987-009-mobile.edpos.vn", value: "CH-009" },
     ];
 
     // Check for Replit dev environment
